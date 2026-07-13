@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Outfit', sans-serif;
+  
+  /* Light Theme variables */
+  --bg-primary: #f3f4f6;
+  --bg-secondary: #ffffff;
+  --bg-glass: rgba(255, 255, 255, 0.45);
+  --border-glass: rgba(255, 255, 255, 0.4);
+  --text-primary: #1f2937;
+  --text-secondary: #4b5563;
+  --text-muted: #9ca3af;
+  
+  --primary-blue: #3b82f6;
+  --primary-purple: #8b5cf6;
+  --accent-pink: #ec4899;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-rose: #f43f5e;
+  
+  --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  --gradient-secondary: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+  --gradient-dark: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+  
+  --shadow-sm: 0 2px 8px 0 rgba(31, 38, 135, 0.05);
+  --shadow-md: 0 8px 32px 0 rgba(31, 38, 135, 0.08);
+  --shadow-lg: 0 12px 48px 0 rgba(31, 38, 135, 0.12);
+  
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  --sidebar-width: 260px;
+  --sidebar-collapsed-width: 80px;
+  --navbar-height: 70px;
+}
+
+[data-theme="dark"] {
+  /* Dark Theme variables */
+  --bg-primary: #0a0b10;
+  --bg-secondary: #131520;
+  --bg-glass: rgba(19, 21, 32, 0.5);
+  --border-glass: rgba(255, 255, 255, 0.06);
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+  
+  --bg-primary-rgb: 10, 11, 16;
+  --bg-secondary-rgb: 19, 21, 32;
+  
+  --shadow-md: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 16px 48px 0 rgba(0, 0, 0, 0.45);
+}
